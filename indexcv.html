@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- titulo trabajo en solapa -->
+  <title> Modelo de CV </title>
+	<!--imagen favicon -->
+	<link rel="icon" type="image/x-icon" href="https://w3schools.com/images/favicon.ico">
+
+<!-- Uso modelo protocolo open graf - para compartir en redes falta completar datos reales -->
+<meta property="og:title" content="Modelo de CV" />
+<meta property="og:type" content="Curriculum Vitae" />
+<meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
+<meta property="og:image" content="https://dbaexperts.tech/wp/wp-content/uploads/2021/03/diferencias-junior-semi-senior-y-senior.jpg" alt="alternatetext" />
+
+<!--coneccion con css  -->
+<link rel="stylesheet" type="text/css" href="estilos.css" />	
+</head>
+
+<body>
+    <h1>Curriculum Vitae</h1>
+    <!-- -->
+    <img src="  https://img.freepik.com/fotos-premium/joven-guapo-nerd-anteojos-contra-gris_251136-21655.jpg?w=740" alt="Trulli" width="200" height="166">
+    <!--pasar medidas de foto carnet al css-------- -->
+    <div>
+    <h2>¡Bienvenid@!</h2>
+    <p id="bienvenido"> Deseo formar parte de su equipo.<h2>L@ invito a conocerme: </h2>
+    <!-- h3 es una clase -->
+     <h3 class="Titulo_de_click">Datos Personales</h3>
+     
+     <button onclick="displayDatos()">Click aqui!!</button>
+     <p id="demo"></p>
+     
+     <h3 class="Titulo_de_click">Experiencia</h3>
+ <!-- -->
+     <button onclick="displayDatos1()">Click aqui!!</button>
+     <p id="demo1"></p>
+     <!--<p>Gerencia</p> -->
+     <h3 class="Titulo_de_click">Habilidades</h3>
+      <!-- -->
+     <button onclick="displayDatos2()">Click aqui!!</button>
+     <p id="demo2"></p>
+     <!--<p>diplomas de estudios real</p>-->
+     <!-- pie de pagina -->
+      <div id="myDIV"></div>
+      <h3 class="Titulo_de_click"> </h3>
+     <footer>
+       <p>Autor: Dario Duarte</p>
+       <p><a href="mailto:duartedario780@gmail.com">duartedario780@gmail.com</a></p>
+     </footer>
+     <!--conección con js -->
+     <script src="sintaxis.js"></script>
+</body>
+</html>
+

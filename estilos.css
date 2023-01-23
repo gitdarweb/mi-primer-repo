@@ -1,0 +1,71 @@
+head{
+    width:400px;
+    height:300px;
+  }
+  /*para fotografia de fondo */
+  body {
+    background-image: url('http://www.economiasalta.gob.ar/wp-content/uploads/2022/03/programacion-1024x682.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+  
+  /*borde*/
+  *{
+     box-sizing: border-box;
+  }
+  
+  p{
+     font-family: 'Source Code Pro', monospace;
+     color: white;
+  }
+  
+   h1 {
+  /* ultimo agregado*/
+    color:white;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    /*------------------------ */
+    background-color:DodgerBlue ;
+    font-family:verdana;
+    text-align:center;
+    /*elimine el font-size no lo toma*/
+  }
+  
+  h2, #bienvenido{
+  
+    color:white; 
+    background-color:tomato ;
+    font-family:verdana;
+    font-size:24px;
+    text-align:center; 
+  }
+  /*prueba en h3 */
+  .Titulo_de_click{
+  
+    height: 24px;
+    width: 24%;
+    background-color: powderblue;
+  }
+  /*diseño del boton */
+  button {
+    color: rgb(255, 255, 255);
+     font-size: 16px; 
+     line-height: 16px;
+      padding: 6px; 
+      border-radius: 10px;
+       font-family: Georgia, serif;
+        font-weight: normal; 
+        text-decoration: none;
+         font-style: normal;
+          font-variant: normal;
+           text-transform: none;
+            background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+             box-shadow: rgb(0, 0, 0) 5px 5px 15px 0px; 
+             border: 2px solid rgb(28, 110, 164); 
+             display: inline-block;}
+  
+  }
+  
+  

@@ -4,7 +4,7 @@ head{
   }
   /*para fotografia de fondo */
   body {
-    background-image: url('http://www.economiasalta.gob.ar/wp-content/uploads/2022/03/programacion-1024x682.jpg');
+    background-image: url('	https://s3.us-east-2.amazonaws.com/mgpanel/954-professional-programmer-working-late-dark-office.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
@@ -16,38 +16,43 @@ head{
   }
   
   p{
-     font-family: 'Source Code Pro', monospace;
-     color: white;
+     color:white;
+     font-family:<link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap" rel="stylesheet">;
+     
   }
   
    h1 {
-  /* ultimo agregado*/
-    color:white;
+  /*Titulo cv y recuadro*/
+    color:yellow;
     width: 300px;
     padding: 20px;
     margin: 20px;
     /*------------------------ */
-    background-color:DodgerBlue ;
-    font-family:verdana;
-    text-align:center;
-    /*elimine el font-size no lo toma*/
+    background-color:black;
+    font-family:<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+    text-align:center
   }
-  
+   /*Subtitulos*/
   h2, #bienvenido{
   
-    color:white; 
-    background-color:tomato ;
-    font-family:verdana;
+    color:chartreuse; 
+    background-color:black ;
+    font-family:'Kanit', sans-serif;
     font-size:24px;
     text-align:center; 
   }
   /*prueba en h3 */
   .Titulo_de_click{
-  
+    color:black;
     height: 24px;
     width: 24%;
-    background-color: powderblue;
+    background-color:lime;
   }
+  
   /*diseño del boton */
   button {
     color: rgb(255, 255, 255);
@@ -64,8 +69,7 @@ head{
             background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
              box-shadow: rgb(0, 0, 0) 5px 5px 15px 0px; 
              border: 2px solid rgb(28, 110, 164); 
-             display: inline-block;}
+             display: inline-block;
   
-  }
-  
+            }
   

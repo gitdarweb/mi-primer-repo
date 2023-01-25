@@ -20,38 +20,47 @@
 </head>
 
 <body>
+   <!--Estructura semantica -->
+  <section>
     <h1>Curriculum Vitae</h1>
     <!-- -->
+    <figure>
     <img src="  https://img.freepik.com/fotos-premium/joven-guapo-nerd-anteojos-contra-gris_251136-21655.jpg?w=740" alt="Trulli" width="200" height="166">
     <!--pasar medidas de foto carnet al css-------- -->
-    <div>
+    </figure>
+  </section>
+  <section>
     <h2>¡Bienvenid@!</h2>
     <p id="bienvenido"> Deseo formar parte de su equipo.<h2>L@ invito a conocerme: </h2>
+  </section>
     <!-- h3 es una clase -->
-     <h3 class="Titulo_de_click">Datos Personales</h3>
-     
-     <button onclick="displayDatos()">Click aqui!!</button>
-     <p id="demo"></p>
-     
+    <!--<p>Datos personales</p> -->
+    <article class="Titulos importantes de clicK">
+    <header>
+    <h3 class="Titulo_de_click">Datos Personales</h3>
+    <button onclick="displayDatos()">Click aqui!!</button>
+    <p id="demo"></p>
+     <!--Experiencia -->
      <h3 class="Titulo_de_click">Experiencia</h3>
- <!-- -->
      <button onclick="displayDatos1()">Click aqui!!</button>
      <p id="demo1"></p>
-     <!--<p>Gerencia</p> -->
+     <!--<p>Habilidades</p> -->
      <h3 class="Titulo_de_click">Habilidades</h3>
-      <!-- -->
      <button onclick="displayDatos2()">Click aqui!!</button>
      <p id="demo2"></p>
      <!--<p>diplomas de estudios real</p>-->
      <!-- pie de pagina -->
       <div id="myDIV"></div>
       <h3 class="Titulo_de_click"> </h3>
+    </header>
+    </article>
      <footer>
        <p>Autor: Dario Duarte</p>
        <p><a href="mailto:duartedario780@gmail.com">duartedario780@gmail.com</a></p>
      </footer>
      <!--conección con js -->
      <script src="sintaxis.js"></script>
+     <!-- -->
 </body>
 </html>
 

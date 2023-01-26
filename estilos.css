@@ -30,15 +30,22 @@ head{
     padding: 20px;
     margin: 20px;
     /*------------------------ */
+    border: 19px groove #1C6EA4;
     background-color:black;
     font-family:<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
     text-align:center
   }
+  img {
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      padding: 5px;
+      width: 150px;
+  } 
    /*Subtitulos*/
   h2, #bienvenido{
-  
+    border: 4px groove rgba(28, 110, 164, 0.99);
     color:chartreuse; 
     background-color:black ;
     font-family:'Kanit', sans-serif;
@@ -50,6 +57,7 @@ head{
     color:black;
     height: 24px;
     width: 24%;
+    border:2px groove rgba(28, 110, 164, 0.99) ;
     background-color:lime;
   }
   

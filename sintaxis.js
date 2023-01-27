@@ -1,10 +1,10 @@
 const datos = [
     {dato:"Nombre y Apellido:", caract:"Duarte Dario."},
-    {dato:"edad:", caract:"48."},
-    {dato:"dirección:", caract:"4 nª1781."},
-    {dato:"ciudad:", caract:"La Plata."},
+    {dato:"Edad:", caract:"48."},
+    {dato:"Dirección:", caract:"4 nª1781."},
+    {dato:"Ciudad:", caract:"La Plata."},
     {dato:"Pais:", caract:"Argentina."},
-    {dato:"whatsapp:", caract:"+54-221-3533461."},
+    {dato:"Whatsapp:", caract:"+54-221-3533461."},
     {dato:"E-mail:", caract:"duartedario780@gmail.com"}
   ];
   
@@ -46,7 +46,7 @@ const datos = [
     {dato2:"El Noble Repulgue:", caract2:"Dueño Franquizia sucursal, La Plata2."},
     {dato2:"El Noble:", caract2:"Cambio de Firma : Cepas Argentina."},
     {dato2:"Nuevo Modelo de Negocio:", caract2:"Gerenciando y batiendo record en ventas."},
-    {dato2:"Manejo de Personal", caract2:"Sistema Moderno de negocios, desde la tecnología y el Marketing."},
+    {dato2:"Manejo de Personal.", caract2:"Sistema Moderno de negocios, uso de tecnología y Marketing."},
     {dato2:"Desde 1998,", caract2:"Hasta 2018."}
   ];
    function displayDatos2() {

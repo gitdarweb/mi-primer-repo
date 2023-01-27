@@ -16,11 +16,8 @@ head{
   }
   
   p{
-     color:white;
-     font-family:<link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap" rel="stylesheet">;
-     
+     color:yellow;
+     font-family:'Open Sans', sans-serif;
   }
   
    h1 {
@@ -32,9 +29,7 @@ head{
     /*------------------------ */
     border: 19px groove #1C6EA4;
     background-color:black;
-    font-family:<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+    font-family:'Merriweather', serif;
     text-align:center
   }
   img {
